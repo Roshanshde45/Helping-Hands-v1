@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "340252622841",
+    "firebase_url": "https://helping-hands-app-release-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "helping-hands-app-release",
+    "storage_bucket": "helping-hands-app-release.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340252622841:android:78041f4f6ea3f1fbcbc728",
+        "android_client_info": {
+          "package_name": "app.helpinghands"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "340252622841-lg1vl7lj2boscqu01m6r77b9i27jl74e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.helpinghands",
+            "certificate_hash": "734b16c9de0e89474de555a615fa419a9e7676c2"
+          }
+        },
+        {
+          "client_id": "340252622841-5nc71pil6n8jrc15nrhhdt88n8o8noqk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCN2yRS83Su1M4dxFut7DHEwRcHNGn9gFM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "340252622841-5nc71pil6n8jrc15nrhhdt88n8o8noqk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340252622841:android:d2c3f85588b1c557cbc728",
+        "android_client_info": {
+          "package_name": "app.helpinghands.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "340252622841-5nc71pil6n8jrc15nrhhdt88n8o8noqk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCN2yRS83Su1M4dxFut7DHEwRcHNGn9gFM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "340252622841-5nc71pil6n8jrc15nrhhdt88n8o8noqk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

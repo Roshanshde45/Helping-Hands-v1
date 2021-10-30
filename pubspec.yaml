@@ -1,0 +1,224 @@
+name: bd_app
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.7+11
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_screenutil: ^4.0.2+8
+  intl_phone_field: ^1.4.2
+  firebase_auth:
+  firebase_core:
+  pinput: ^1.0.0
+  progress_dialog: ^1.2.4
+  flutter_datetime_picker: ^1.5.0
+  image_picker: ^0.6.7+22
+  circular_profile_avatar: ^1.0.8
+  geolocator:
+  time_picker_widget: ^1.0.0+9
+  firebase_database:
+  geocoding:
+  geocoder: ^0.2.1
+  firebase_storage: ^7.0.0
+  path: ^1.7.0
+  path_provider:
+  intl: ^0.16.1
+  shimmer: ^1.1.2
+  modal_bottom_sheet: ^1.0.0+1
+  persistent_bottom_nav_bar: ^3.1.0
+  fading_edge_scrollview: ^1.1.4
+  flushbar: ^1.10.4
+  cloud_firestore:
+  url_launcher:
+  rflutter_alert: ^1.1.0
+  age: ^0.0.1
+  firebase_messaging: ^6.0.16
+  flutter_statusbarcolor: ^0.2.3
+  firebase_dynamic_links:
+  circular_check_box: ^1.0.4
+  share: ^0.6.5+4
+  http:
+  google_maps_flutter:
+  search_map_place: ^0.3.0
+  flutter_polyline_points:
+  flutter_spinkit: ^4.1.2+1
+  another_flushbar: ^1.10.11
+  location:
+  flutter_pagewise: ^1.2.3
+  android_intent: ^0.3.7+7
+  simple_tooltip: ^0.1.16
+  flutter_easyloading: ^2.2.2
+  permission_handler:
+  fluttertoast: ^7.1.8
+  google_sign_in: ^4.5.9
+  get: ^3.26.0
+  provider: ^4.3.3
+  cached_network_image: ^2.5.0
+  tab_indicator_styler: ^1.0.0
+  google_maps_webservice: ^0.0.18
+  geoflutterfire: ^2.2.2
+  mailto: ^1.1.0
+  paginate_firestore: ^0.3.0+1
+  rxdart: ^0.25.0
+  flutter_local_notifications:
+  dotted_border: ^1.0.7
+  json_annotation:
+  firebase_crashlytics:
+  ntp: ^1.0.8
+  trust_location: ^2.0.11
+  firebase_remote_config: ^0.6.0
+  package_info_plus: ^0.6.3
+  flutter_svg: ^0.19.1
+  syncfusion_flutter_sliders: ^18.4.46-beta
+  full_screen_image: ^1.0.2
+  pinch_zoom: ^0.0.4
+  launch_review: ^2.0.0
+  flutter_phone_direct_caller: ^2.0.0
+  flutter_toggle_tab: ^1.1.5
+  toggle_switch: ^1.2.0
+
+  #  pull_to_refresh: ^1.6.4
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  json_model: #used to generate json to model
+  build_runner: ^1.0.0 #concrete way of generating files using Dart code
+  json_serializable: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/blood_drop.png
+    - images/gallery.png
+    - images/donorIcon.png
+    - images/connect.png
+    - images/phoneOtp.jpg
+    - images/ready.png
+    - images/nearby.png
+    - images/postSlide.png
+    - images/notification.png
+    - images/helpingHandsLogo.png
+    - images/phone_auth.png
+    - images/email.png
+    - images/lifepointsreward.png
+    - images/person.png
+    - images/phone.png
+    - images/drop.png
+    - images/Ambulance.png
+    - images/add.png
+    - images/home.png
+    - images/userbig.png
+    - images/personb.png
+    - images/done.png
+    - images/icons/clock.png
+    - images/icons/direction.png
+    - images/icons/evaluation.png
+    - images/icons/phone_call.png
+    - images/icons/checked.png
+    - images/icons/bell.png
+    - images/icons/hi.png
+    - images/icons/new_message.png
+    - images/icons/alert.png
+    - images/icons/user.png
+    - images/icons/like.png
+    - images/icons/edit.png
+    - images/icons/history.png
+    - images/icons/feedback.png
+    - images/icons/feature.png
+    - images/icons/phonecallicons.png
+    - images/icons/refreshing.png
+    - images/icons/appreciation.png
+    - images/icons/handshake.png
+    - images/icons/on.png
+    - images/icons/add_filled.png
+    - images/icons/drop_outline.png
+    - images/icons/ambulance_filled.png
+    - images/icons/user_outline.png
+    - images/icons/user_filled.png
+    - images/icons/visibility.png
+    - images/icons/cancelDonation.png
+    - images/icons/outlinebell.png
+    - images/icons/filledsearch.png
+    - images/icons/points.png
+    - images/icons/camera.png
+    - images/icons/rewards.png
+    - images/icons/heartbeat.png
+    - images/icons/heart.png
+    - images/icons/volunteer.png
+    - images/icons/share.png
+    - images/icons/recommend.png
+    - images/icons/comment.png
+    - images/icons/contact.png
+    - images/icons/gift.png
+    - images/icons/give.png
+    - images/icons/add.png
+    - images/icons/request.png
+    - images/icons/chat.png
+    - images/icons/heart_attack.png
+    - images/icons/confirmation.png
+    - images/icons/okicon.png
+    - images/HelpingHands_Red.svg
+
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: fonts/OpenSans-Regular.ttf
+        - asset: fonts/OpenSans-SemiBold.ttf
+        - asset: fonts/OpenSans-Bold.ttf
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
